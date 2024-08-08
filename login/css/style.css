@@ -41,6 +41,6 @@ a:hover{
 .right-side{
     height:600px !important;
     border-radius: 0px 50px 50px 0px !important;
-    background:radial-gradient(rgba(0, 0, 0, 0.404) 98%,black),url(/login/asia-culturecenter-COWf-5ZtZ6w-unsplash.jpg) !important;
+    background:radial-gradient(rgba(0, 0, 0, 0.404) 98%,black),url(./login/asia-culturecenter-COWf-5ZtZ6w-unsplash.jpg) !important;
     background-size: cover !important;
 }
