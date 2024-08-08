@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Crimson+Text:wght@400;600&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Almendra Display', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Poppins', sans-serif;
+
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+    background: rgb(255, 255, 255) !important;
+    color: rgb(7, 7, 7) !important;
+}
+.nav-link{
+    color: white !important;
+    transition: all 0.3s;
+}
+.nav-link:hover{
+    color: rgb(244, 225, 225) !important;
+    transform: scale(1.9);
+}
+input:focus{
+    border-color: rgba(223, 224, 222, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075) inset, 0 0 8px  rgba(236, 236, 236, 0.8) !important;
+  outline: 0 none !important;
+}
+.bg-black{
+    background-color: black !important;
+}
+.a{
+    transition: all 0.3s;
+}
+.a:hover{
+    transform: scale(1.02) !important;
+}

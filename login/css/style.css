@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&family=Crimson+Text:wght@400;600&family=Poppins:wght@100;200;300;400&display=swap');
+*{
+    font-family: 'Almendra Display', serif;
+font-family: 'Crimson Text', serif;
+font-family: 'Poppins', sans-serif;
+
+}
+#box{
+    border-radius: 50px !important; 
+}
+input{
+    width:400px !important;
+    outline:none !important;
+}
+input:focus{
+    border-color: rgba(52, 53, 51, 0.8) !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px  rgba(52, 53, 51, 0.8) !important;
+  outline: 0 none !important;
+}
+.or p{
+    color:black
+}
+.buttons-2 button{
+    transition:0.5s !important;
+    width:400px !important;
+}
+.buttons-2 button:hover a{
+    color: white !important;
+}
+.link a{
+    transition:0.4s !important;
+    border:2px solid black !important;
+    border-radius:50%;
+}
+.link a:hover{
+    border:1px solid rgb(97, 96, 96) !important;
+}
+a:hover{
+    color:black !important;
+}
+.right-side{
+    height:600px !important;
+    border-radius: 0px 50px 50px 0px !important;
+    background:radial-gradient(rgba(0, 0, 0, 0.404) 98%,black),url(/login/asia-culturecenter-COWf-5ZtZ6w-unsplash.jpg) !important;
+    background-size: cover !important;
+}

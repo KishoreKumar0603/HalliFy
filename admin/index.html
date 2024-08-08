@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/admin/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-black shadow fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Admin</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav nav nav-pills me-auto" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active p-2" data-bs-toggle="pill" href="#home">Halls</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link p-2" data-bs-toggle="pill" href="#new-booking">New Bookings</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Hall">
+              <button class="btn btn-outline-light" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="tab-content">
+        <div id="home" class="container tab-pane active min-vh-100 mt-5 p-5"><br>
+            <div class="row h-100">
+                <div class="col-sm-12 col-md-12 h-50 border border-light shadow rounded bg-light p-4 a" id="hall-1 border">
+                    <div class="row mh-100">
+                        <div class="col-lg-4 mh-100" id="image-hall-1">
+                            <img src="/admin/Hallimg/asia-culturecenter-d_Etix8Zkag-unsplash.jpg" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1  text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>Rectangular Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Smart Screen Projector</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Lights and Air Coolers</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    Smart Audio Speekers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 h-100 mt-3 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Pricing</p>
+                                </div>
+                                <div class="col-12 text-start text-capitalize">
+                                    <p>
+                                        In our Hall 150 (apprx) people can occupy the seats . washrooms are very near to the hall and free drinks will be given by our side.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-start">
+                                    <p>Hall Pricing : 50k / day</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-suit-heart-fill "> add fav</span></button>
+                                        </div>
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-pen-fill"> Edit</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-12 h-50 border border-light shadow rounded bg-light mt-5 p-4 a" id="hall-2 border">
+                    <div class="row h-100">
+                        <div class="col-lg-4 h-100" id="image-hall-2">
+                            <img src="/admin/Hallimg/febrian-zakaria-9Nzv3x8dsOY-unsplash.jpg"  class="rounded" alt="" height="300px" width="100%">
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>Rectangular Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Smart Screen Projector</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Lights and Air Coolers</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    Smart Audio Speekers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Pricing</p>
+                                </div>
+                                <div class="col-12 text-start text-capitalize">
+                                    <p>
+                                        In our Hall 13 people can occupy the seats . washrooms are very near to the hall and free drinks will be given by our side. this hall is only for those who wants just hall for just meeting purpose.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-start">
+                                    <p>Hall Pricing : 36k / day</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-suit-heart-fill "> add fav</span></button>
+                                        </div>
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-pen-fill"> Edit</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-12 h-50 border border-light shadow rounded bg-light mt-5 p-4 a" id="hall-3 border">
+                    <div class="row mh-100">
+                        <div class="col-lg-4 mh-100" id="image-hall-3">
+                            <img src="/admin/Hallimg/justin-buisson-hgezQgpaGG0-unsplash.jpg" class=" rounded" height="300px" width="100%" alt="">
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>Rectangular Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Smart Screen Projector</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Lights and Air Coolers</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    Smart Audio Speekers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Pricing</p>
+                                </div>
+                                <div class="col-12 text-start text-capitalize">
+                                    <p>
+                                        In our Hall 60 people can occupy the seats . washrooms are very near to the hall and free drinks will be given by our side. this hall is useful for those who wants just hall for just meeting purpose.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-start">
+                                    <p>Hall Pricing : 36k / day</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-suit-heart-fill "> add fav</span></button>
+                                        </div>
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-pen-fill"> Edit</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-md-12 h-50 border border-light shadow rounded bg-light mt-5 mb-5 p-4 a" id="hall-4 border">
+                    <div class="row mh-100">
+                        <div class="col-lg-4 mh-100" id="image-hall-4">
+                            <img src="/admin/Hallimg/wilhelm-gunkel-qkApDy-k2RA-unsplash.jpg" class="img-fluid rounded" alt="">
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1  text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>Rectangular Structure</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Smart Screen Projector</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    <p>LED Lights and Air Coolers</p>
+                                </div>
+                                <div class="col-6 col-lg-12">
+                                    Smart Audio Speekers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 h-100 mt-1 text-center">
+                            <div class="row h-100">
+                                <div class="col-12">
+                                    <p class="h3">Pricing</p>
+                                </div>
+                                <div class="col-12 text-start text-capitalize">
+                                    <p>
+                                        In our Hall 60 people can occupy the seats . washrooms are very near to the hall and free drinks will be given by our side. this hall is useful for those who wants just hall for just meeting purpose.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-start">
+                                    <p>Hall Pricing : 36k / day</p>
+                                </div>
+                                <div class="col-12">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-suit-heart-fill "> add fav</span></button>
+                                        </div>
+                                        <div class="col-6">
+                                            <button type="button" class="btn btn-outline-dark"><span class="bi bi-pen-fill"> Edit</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- newBooking section -->
+
+
+        <div id="new-booking" class="container tab-pane fade mt-5 p-3 min-vh-100"><br>
+            <div class="row mh-100">
+                <div class="col-sm-11 h-25 border bg-light shadow p-3 rounded-4" id="new-booking-1" >
+                    <div class="row h-100">
+                        <div class="col-sm-12 col-lg-1 d-flex align-items-center justify-content-center">
+                            <img src="/admin/newbookingImages/fotoweedio-xh4j7nl6ePs-unsplash.jpg" class="rounded-circle shadow-sm" height="100px" width="100px" alt="">
+                        </div>
+                        <div class="col-sm-12 col-lg-11 ps-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p><a href="" class="text-dark">abdullah0603</a> has booked hall for 1day seminar class their new course</p>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 d-flex flex-row align-items-center justify-content-around">
+                                    <p class="bi bi-view-list btn btn-outline-dark" type="button"> view</p>
+                                    <p class="bi bi-x-circle btn btn-outline-dark" type="button"> cancel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-11 h-25 border bg-light shadow p-3 rounded-4 mt-5" id="new-booking-1" >
+                    <div class="row h-100">
+                        <div class="col-sm-12 col-lg-1 d-flex align-items-center justify-content-center">
+                            <img src="/admin/newbookingImages/himanshu-dewangan-3vy8JquXGsA-unsplash.jpg" class="rounded-circle shadow-sm" height="100px" width="100px" alt="">
+                        </div>
+                        <div class="col-sm-12 col-lg-11 ps-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p><a href="" class="text-dark">Himanshu</a> has booked hall for some project presentation Event</p>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 d-flex flex-row align-items-center justify-content-around">
+                                    <p class="bi bi-view-list btn btn-outline-dark" type="button"> view</p>
+                                    <p class="bi bi-x-circle btn btn-outline-dark" type="button"> cancel</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
