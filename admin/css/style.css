@@ -16,7 +16,7 @@ font-family: 'Poppins', sans-serif;
 }
 .nav-link:hover{
     color: rgb(244, 225, 225) !important;
-    transform: scale(1.9);
+    transform: scale(1.1);
 }
 input:focus{
     border-color: rgba(223, 224, 222, 0.8) !important;
